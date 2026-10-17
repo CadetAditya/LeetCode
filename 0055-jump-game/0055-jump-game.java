@@ -4,7 +4,7 @@ class Solution {
         int farthest=0;
 
         if(nums.length==1) return true;
-        if(nums[0]==0) return false;
+        // if(nums[0]==0) return false;
 
         for(int i=0;i<nums.length-1;i++){
             farthest=Math.max(farthest,i+nums[i]);
