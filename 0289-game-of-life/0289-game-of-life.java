@@ -15,13 +15,6 @@ class Solution {
                     int x = i + dx[k];
                     int y = j + dy[k];
 
-                    // if (x >= 0 && x < m &&
-                    //     y >= 0 && y < n &&
-                    //     Math.abs(board[x][y]) == 1 ||
-                    //     false) {
-                    //     // Not used
-                    // }
-
                     if (x >= 0 && x < m &&
                         y >= 0 && y < n &&
                         (board[x][y] == 1 ||
