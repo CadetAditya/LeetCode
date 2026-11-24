@@ -10,7 +10,7 @@ class Solution {
             farthest=Math.max(farthest,i+nums[i]);
             if(i==farthest){
                 if(nums[i]==0) return false;
-                farthest=nums[i];
+                farthest=i+nums[i];
             }
         }
 
